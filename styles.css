@@ -1,7 +1,58 @@
-<html>
-    <head>
-        <title>Words From My Kitchen</title>
-    </head>
+body {
+  /* Old browsers */
+  background: rgb(224, 198, 159);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, rgb(224, 198, 159), rgb(224, 198, 159));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, rgb(224, 198, 159), rgb(224, 198, 159));
+  margin: 50;
+  padding: 0;
+}
 
-<body>
-</body>
+span {
+  text-align: center;
+}
+p {
+    color: black;
+    font-family: Garamond;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: left;
+    width: 75%;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+h1 {
+  color: black;
+  font-family: Garamond;
+  line-height: 24px;
+  font-size: 7em;
+  padding-top: 100px;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+
+.title {
+    color: rgb(6, 20, 20);
+  }
+
+.cursive {
+    font-family: cursive;
+  }
+
+  h2,h3 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: 100;
+    font-size: 28px;
+    font-family: Georgia;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+  }
+
+
